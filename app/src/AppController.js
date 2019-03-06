@@ -12,7 +12,8 @@ function AppController(UsersDataService, $mdSidenav) {
   self.mvc        = ['model', 'view', 'component'];
   self.selectUser   = selectUser;
   self.toggleList   = toggleUsersList;
-
+  self.val1 = 5;
+  self.val2 = undefined;
   // Load all registered users
 
   UsersDataService
